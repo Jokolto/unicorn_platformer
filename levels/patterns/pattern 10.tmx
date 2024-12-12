@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="13" height="13" tilewidth="48" tileheight="48" infinite="0" nextlayerid="3" nextobjectid="22">
+ <tileset firstgid="1" source="../Terrain.tsx"/>
+ <tileset firstgid="16" source="../Spike.tsx"/>
+ <tileset firstgid="17" source="../blocks2.tsx"/>
+ <layer id="1" name="blocks" width="13" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,9,9,9,9,9,9,9,0,0,0,
+0,0,9,5,5,5,5,5,5,5,9,0,0,
+0,0,0,5,0,0,0,0,0,5,0,0,0,
+0,0,0,5,0,0,0,0,0,5,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,17,17,9,9,9,9,9,17,17,17,0,
+0,0,0,17,17,17,17,17,17,17,17,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Objekts">
+  <object id="16" type="Spike" gid="16" x="246.507" y="480.439" width="16" height="16"/>
+  <object id="17" type="Spike" gid="16" x="257.937" y="480.439" width="16" height="16"/>
+  <object id="18" type="Spike" gid="16" x="268.605" y="480.439" width="16" height="16"/>
+  <object id="19" type="Spike" gid="16" x="339.09" y="482.727" width="16" height="16"/>
+  <object id="20" type="Spike" gid="16" x="350.52" y="482.727" width="16" height="16"/>
+  <object id="21" type="Spike" gid="16" x="361.188" y="482.727" width="16" height="16"/>
+ </objectgroup>
+</map>

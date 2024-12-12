@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="13" height="13" tilewidth="48" tileheight="48" infinite="0" nextlayerid="3" nextobjectid="16">
+ <tileset firstgid="1" source="../Terrain.tsx"/>
+ <tileset firstgid="16" source="../Spike.tsx"/>
+ <tileset firstgid="17" source="../blocks2.tsx"/>
+ <layer id="1" name="blocks" width="13" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,17,17,9,9,9,9,9,9,9,17,17,0,
+0,0,17,17,17,17,17,17,17,17,17,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Objekts">
+  <object id="1" type="Spike" gid="16" x="243.875" y="483.125" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="2" type="Spike" gid="16" x="258.875" y="482.125" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="3" type="Spike" gid="16" x="274.875" y="482.125" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="4" type="Spike" gid="16" x="292.375" y="482.625" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="5" type="Spike" gid="16" x="307.375" y="481.625" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="6" type="Spike" gid="16" x="323.375" y="481.625" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="7" type="Spike" gid="16" x="339.375" y="482.625" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="8" type="Spike" gid="16" x="354.375" y="481.625" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="9" type="Spike" gid="16" x="370.375" y="481.625" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="10" type="Spike" gid="16" x="387.375" y="482.625" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="11" type="Spike" gid="16" x="402.375" y="481.625" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="12" type="Spike" gid="16" x="418.375" y="481.625" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="13" type="Spike" gid="16" x="195.625" y="481.875" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="14" type="Spike" gid="16" x="210.625" y="480.875" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+  <object id="15" type="Spike" gid="16" x="226.625" y="480.875" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="13" height="13" tilewidth="48" tileheight="48" infinite="0" nextlayerid="3" nextobjectid="91">
+ <tileset firstgid="1" source="../Terrain.tsx"/>
+ <tileset firstgid="16" source="../Spike.tsx"/>
+ <tileset firstgid="17" source="../blocks2.tsx"/>
+ <layer id="1" name="blocks" width="13" height="13">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,9,9,9,9,9,9,9,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,17,9,0,0,0,0,0,0,0,9,0,0,
+17,17,9,0,0,0,0,0,0,0,9,17,17,
+17,17,9,0,0,0,0,0,0,0,9,17,17,
+0,17,17,9,9,9,9,9,9,9,17,17,0,
+0,0,17,17,17,17,17,17,17,17,17,0,0
+</data>
+ </layer>
+ <objectgroup id="2" name="Objekts">
+  <object id="1" type="Spike" gid="16" x="146.732" y="532.979" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="2" type="Spike" gid="16" x="161.732" y="531.979" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="3" type="Spike" gid="16" x="177.732" y="531.979" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="4" type="Spike" gid="16" x="195.232" y="532.479" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="5" type="Spike" gid="16" x="210.232" y="531.479" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="6" type="Spike" gid="16" x="226.232" y="531.479" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="7" type="Spike" gid="16" x="242.232" y="532.479" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="8" type="Spike" gid="16" x="257.232" y="531.479" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="9" type="Spike" gid="16" x="273.232" y="531.479" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="10" type="Spike" gid="16" x="290.232" y="532.479" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="11" type="Spike" gid="16" x="305.232" y="531.479" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="12" type="Spike" gid="16" x="321.232" y="531.479" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="13" type="Spike" gid="16" x="340.102" y="529.854" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="14" type="Spike" gid="16" x="355.102" y="528.854" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="15" type="Spike" gid="16" x="371.102" y="528.854" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="16" type="Spike" gid="16" x="388.602" y="529.354" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="17" type="Spike" gid="16" x="403.602" y="528.354" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="18" type="Spike" gid="16" x="419.602" y="528.354" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="19" type="Spike" gid="16" x="435.602" y="529.354" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="20" type="Spike" gid="16" x="450.602" y="528.354" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="21" type="Spike" gid="16" x="466.602" y="528.354" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="34" type="Spike" gid="1073741840" x="336.33" y="203.886" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="35" type="Spike" gid="1073741840" x="351.33" y="204.886" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="36" type="Spike" gid="1073741840" x="367.33" y="204.886" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="37" type="Spike" gid="1073741840" x="384.83" y="204.386" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="38" type="Spike" gid="1073741840" x="399.83" y="205.386" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="39" type="Spike" gid="1073741840" x="415.83" y="205.386" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="40" type="Spike" gid="1073741840" x="431.83" y="204.386" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="41" type="Spike" gid="1073741840" x="446.83" y="205.386" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="42" type="Spike" gid="1073741840" x="462.83" y="205.386" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="55" type="Spike" gid="16" x="340.14" y="145.873" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="56" type="Spike" gid="16" x="355.14" y="144.873" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="57" type="Spike" gid="16" x="371.14" y="144.873" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="58" type="Spike" gid="16" x="388.64" y="145.373" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="59" type="Spike" gid="16" x="403.64" y="144.373" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="60" type="Spike" gid="16" x="419.64" y="144.373" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="61" type="Spike" gid="16" x="435.64" y="145.373" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="62" type="Spike" gid="16" x="450.64" y="144.373" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="63" type="Spike" gid="16" x="466.64" y="144.373" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="64" type="Spike" gid="1073741840" x="190.877" y="204.609" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="65" type="Spike" gid="1073741840" x="205.877" y="205.609" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="66" type="Spike" gid="1073741840" x="221.877" y="205.609" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="67" type="Spike" gid="1073741840" x="242.425" y="205.871" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="68" type="Spike" gid="1073741840" x="257.425" y="206.871" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="69" type="Spike" gid="1073741840" x="273.425" y="206.871" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="70" type="Spike" gid="1073741840" x="289.425" y="205.871" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="71" type="Spike" gid="1073741840" x="304.425" y="206.871" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="72" type="Spike" gid="1073741840" x="320.425" y="206.871" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="73" type="Spike" gid="16" x="195.449" y="145.912" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="74" type="Spike" gid="16" x="210.449" y="144.912" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="75" type="Spike" gid="16" x="226.449" y="144.912" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="76" type="Spike" gid="16" x="243.949" y="145.412" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="77" type="Spike" gid="16" x="258.949" y="144.412" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="78" type="Spike" gid="16" x="274.949" y="144.412" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="79" type="Spike" gid="16" x="290.949" y="145.412" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="80" type="Spike" gid="16" x="305.949" y="144.412" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="81" type="Spike" gid="16" x="321.949" y="144.412" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="85" type="Spike" gid="1073741840" x="143.378" y="203.335" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="86" type="Spike" gid="1073741840" x="158.378" y="204.335" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="87" type="Spike" gid="1073741840" x="174.378" y="204.335" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="88" type="Spike" gid="16" x="146.426" y="147.186" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="89" type="Spike" gid="16" x="161.426" y="146.186" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+  <object id="90" type="Spike" gid="16" x="177.426" y="146.186" width="16" height="16">
+   <properties>
+    <property name="pattern" type="int" value="3"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>
